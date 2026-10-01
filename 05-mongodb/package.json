@@ -1,0 +1,19 @@
+{
+  "name": "05-mongodb",
+  "version": "1.0.0",
+  "description": "บทที่ 5: เชื่อมต่อ MongoDB ด้วย Node.js",
+  "main": "db.js",
+  "scripts": {
+    "connect": "node --env-file=.env 1-connect.js",
+    "insert": "node --env-file=.env 2-insert.js",
+    "find": "node --env-file=.env 3-find.js",
+    "update": "node --env-file=.env 4-update-delete.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "mongodb": "^7.7.0"
+  }
+}
