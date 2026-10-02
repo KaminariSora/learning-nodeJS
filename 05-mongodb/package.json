@@ -7,7 +7,9 @@
     "connect": "node --env-file=.env 1-connect.js",
     "insert": "node --env-file=.env 2-insert.js",
     "find": "node --env-file=.env 3-find.js",
-    "update": "node --env-file=.env 4-update-delete.js"
+    "update": "node --env-file=.env 4-update-delete.js",
+    "exercise": "node --env-file=.env 5-exercise.js",
+    "test": "node --env-file=.env 6-test.js"
   },
   "keywords": [],
   "author": "",
