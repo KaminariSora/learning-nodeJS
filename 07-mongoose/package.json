@@ -1,0 +1,19 @@
+{
+  "name": "07-mongoose",
+  "version": "1.0.0",
+  "description": "บทที่ 7: Mongoose + จัดโครงสร้างโปรเจกต์ Express",
+  "main": "src/server.js",
+  "scripts": {
+    "basics": "node --env-file=.env 1-mongoose-basics.js",
+    "dev": "node --watch --env-file=.env src/server.js",
+    "client": "node client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.11.0"
+  }
+}
